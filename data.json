@@ -1,0 +1,21 @@
+[
+	{
+		"path": "/path/to/dir",
+		"util": "pug",
+		"args": [
+			"./"
+		],
+		"flags": [
+			"--pretty"
+		]
+	},
+	{
+		"path": "/another/path/to/dir",
+		"util": "sass",
+		"args": [
+			"style.scss:style.css",
+			"mobile-style.scss:mobile-style.css"
+		],
+		"flags": []
+	}
+]
